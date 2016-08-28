@@ -7,12 +7,12 @@
 // ※長時間点灯させる場合は抵抗器を使う
 
 // LED を繋いだピン
-int LED_PIN = 13;
+const int LED_PIN = 13;
 
 // LED を点灯・消灯している時間（ms）
 // 長さをいろいろ変えてみる。
-int LED_ON_TIME_MS = 1000;
-int LED_OFF_TIME_MS = 100;
+const int LED_ON_TIME_MS = 1000;
+const int LED_OFF_TIME_MS = 100;
 
 // 起動時、最初に1回だけ実行される関数
 void setup() {
